@@ -1,11 +1,10 @@
-from bank import BankAccount as b
+from bankAccount import BankAccount as b
 
 account = b("John Doe", 1000)
 
 def main():
     while(True):
-        print('Account infos:')
-        account.info()
+        account.getInfo()
         print('Options: ')
         print('1. Deposit')
         print('2. Withdraw')
